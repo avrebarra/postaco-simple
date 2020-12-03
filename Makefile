@@ -4,8 +4,8 @@ PROJECTNAME := postaco
 
 ## build project
 build:
-	rm -rf dist
-	postaco build -src ./docs -out=dist
+	rm -rf docs
+	postaco build -src ./src -out=docs
 
 serve:
 	serve dist
